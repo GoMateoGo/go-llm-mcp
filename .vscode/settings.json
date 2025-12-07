@@ -1,0 +1,147 @@
+{
+  "editor.fontFamily": "Fira Code, Consolas, 'Courier New', monospace",
+  "editor.comments.insertSpace": false,
+  "editor.comments.ignoreEmptyLines": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "files.autoSave": "afterDelay",
+  "editor.unicodeHighlight.nonBasicASCII": false,
+  "editor.unicodeHighlight.allowedLocales": {
+    "zh-hant": true,
+    "zh-hans": true
+  },
+  "explorer.confirmDelete": false,
+  "git.openRepositoryInParentFolders": "always",
+  "grunt.autoDetect": "on",
+  "explorer.confirmDragAndDrop": false,
+  "[vue]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "recentlyUsed",
+  "settingsSync.ignoredExtensions": [],
+  "editor.fontSize": 20,
+  "editor.formatOnPaste": true,
+  "workbench.layoutControl.enabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "Vue.volar"
+  },
+  //注释颜色
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          // C & C++
+          "source.c variable.other",
+          "source.cpp variable.other",
+          "variable.global.lua",
+          "meta.definition.variable.name",
+          "support.variable",
+          "entity.name.variable",
+          "constant.other.placeholder",
+          // Golang
+          "source.go variable.other"
+        ]
+        //"settings": {
+        //   "foreground": "#09fdc0", // 红色
+        //   "fontStyle": "underline" // 下划线
+        //}
+      }
+    ],
+    "comments": "#8be270"
+  },
+  "extensions.autoUpdate": false,
+  "extensions.autoCheckUpdates": false,
+  "eslint.codeActionsOnSave.rules": null,
+  "http.proxyAuthorization": null,
+  "Codegeex.Privacy": true,
+  "workbench.iconTheme": "vscode-icons",
+  "Codegeex.Comment.LanguagePreference": "中文",
+  "[go]": {
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.lintTool": "golint",
+  "Codegeex.DisabledFor": {
+    "go": true,
+    "": true
+  },
+  "gopls": {
+    "ui.semanticTokens": true
+  },
+  "go.lintFlags": ["-min_confidence=.8", "--disable=all", "--enable=errcheck"],
+  "go.vetOnSave": "off",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.tabCompletion": "on",
+  "workbench.settings.editor": "json",
+  "Codegeex.EnableExtension": false,
+  "workbench.startupEditor": "none",
+  "remote.extensionKind": {
+    "GitHub.copilot": ["ui"],
+    "github.copilot-chat": ["ui"]
+  },
+  "terminal.integrated.fontSize": 18,
+  "hediet.vscode-drawio.resizeImages": null,
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+  "go.toolsManagement.autoUpdate": true,
+  "diffEditor.renderSideBySide": false,
+  "vsicons.dontShowNewVersionMessage": true,
+  "terminal.integrated.fontFamily": "monospace",
+  "editor.fontLigatures": true,
+  "[lua]": {
+    "editor.defaultFormatter": "sumneko.lua"
+  },
+  "graphviz-preview.dotPath": "C:\\Program Files\\Graphviz\\bin",
+  "fittencode.languagePreference.displayPreference": "zh-cn",
+  "fittencode.languagePreference.commentPreference": "zh-cn",
+  "fittencode.disableSpecificInlineCompletion.suffixes": "go",
+  "editor.rulers": [
+    {
+      "column": 100,
+      "color": "#00ff4c"
+    }
+  ],
+  "cmake.options.statusBarVisibility": "visible",
+  "cmake.options.advanced": {
+    "build": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "visible"
+    },
+    "launch": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "visible"
+    },
+    "debug": {
+      "statusBarVisibility": "inherit",
+      "inheritDefault": "visible"
+    }
+  },
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "[cpp]": {
+    "editor.wordBasedSuggestions": "off",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.stickyScroll.defaultModel": "foldingProviderModel",
+    "editor.suggest.insertMode": "replace"
+},
+  "makefile.configureOnOpen": true,
+  "remote.SSH.remotePlatform": {
+    "110.241.189.176": "windows"
+  },
+  "lua-obfuscator.ApiKey": "test",
+  "lua-obfuscator.ControlFlowFlattenV1AllBlocks": true,
+  "cmake.showOptionsMovedNotification": false,
+  "window.newWindowProfile": "默认",
+  "go.coverOnSave": true,
+  "python.analysis.autoFormatStrings": true,
+  "editor.defaultFormatter": "ms-python.black-formatter",
+  "notebook.defaultFormatter": "ms-python.black-formatter"
+}
